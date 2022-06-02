@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import illustrationIntro from '../assets/illustration-intro.svg'
 import Features from './Features';
 import Testimonials from './Testimonials';
+import CallToAction from './CallToAction';
 
 const HomePage = () => {
     return (
@@ -31,6 +32,7 @@ const HomePage = () => {
             </section>
             <Features />
             <Testimonials />
+            <CallToAction />
         </div>
     );
 };
