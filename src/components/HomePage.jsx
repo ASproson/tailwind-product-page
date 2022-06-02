@@ -4,6 +4,7 @@ import illustrationIntro from '../assets/illustration-intro.svg'
 import Features from './Features';
 import Testimonials from './Testimonials';
 import CallToAction from './CallToAction';
+import Footer from './Footer';
 
 const HomePage = () => {
     return (
@@ -33,6 +34,7 @@ const HomePage = () => {
             <Features />
             <Testimonials />
             <CallToAction />
+            <Footer />
         </div>
     );
 };
