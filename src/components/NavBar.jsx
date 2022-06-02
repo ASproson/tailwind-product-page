@@ -14,13 +14,13 @@ const NavBar = () => {
                         <img src={logo} alt="" />
                     </div>
                     {/* Menu items */}
-                    <div className="flex space-x-6">
-                        <Link to='/'>Pricing</Link>
-                        <Link to='/'>Product</Link>
-                        <Link to='/'>About Us</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Pricing</Link>
+                    <div className="hidden md:flex space-x-6">
+                        <Link to='/' className='hover:text-darkGrayishBlue'>Pricing</Link>
+                        <Link to='/' className='hover:text-darkGrayishBlue'>Product</Link>
+                        <Link to='/' className='hover:text-darkGrayishBlue'>About Us</Link>
+                        <Link to='/' className='hover:text-darkGrayishBlue'>Careers</Link>
+                        <Link to='/' className='hover:text-darkGrayishBlue'>Contact</Link>
+                        <Link to='/' className='hover:text-darkGrayishBlue'>Pricing</Link>
                     </div>
                 </div>
             </nav>
@@ -32,3 +32,4 @@ export default NavBar;
 
 // mx-auto, margin auto on x axis
 // space-x-6 generates responsive spacing between nav items
+// hidden md:flex space x-6 shows navbar items when above size specificed in themes.screens
