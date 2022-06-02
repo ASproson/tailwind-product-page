@@ -1,7 +1,7 @@
 {
   "name": "tailwind-product-page",
   "version": "0.1.0",
-  "homepage": "https://{ASproson}.github.io/{tailwind-product-page}",
+  "homepage": "https://ASproson.github.io/tailwind-product-page",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
