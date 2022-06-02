@@ -6,7 +6,7 @@ Hello there! This is a project I made to demonstrate my Tailwind capability insi
 
 Open the folder you'd like to install it to using your terminal, then run the following commands:
 
-> git https://github.com/ASproson/tailwind-product-page.git
+> git clone https://github.com/ASproson/tailwind-product-page.git
 
 > npm i
 
