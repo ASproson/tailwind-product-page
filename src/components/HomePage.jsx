@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import illustrationIntro from '../assets/illustration-intro.svg'
+import Features from './Features';
+import Testimonials from './Testimonials';
 
 const HomePage = () => {
     return (
@@ -27,6 +29,8 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+            <Features />
+            <Testimonials />
         </div>
     );
 };
